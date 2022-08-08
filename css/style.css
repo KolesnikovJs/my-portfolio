@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Inter', sans-serif;
 }
@@ -178,4 +182,71 @@ color: #BF7506;
 
 .card-button-icon {
   margin-right: 4px;
+}
+
+.feedback {
+    padding: 80px 0 160px;
+}
+
+.input-group {
+    position: relative;
+    padding-top: 9px;
+    margin-bottom: 24px;
+}
+
+.input-label {
+    position: absolute;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #83807C;
+    background: #ffffff;
+    top: 0;
+    left: 15px;
+}
+
+.input {
+    border: 3px solid #E0DEDC;
+    border-radius: 4px;
+    width: 435px;
+    height: 56px;
+}
+
+.feedback-title {
+    font-size: 32px;
+    line-height: 125%;
+    letter-spacing: -0.03em;
+    color: #211B12;
+}
+
+.textarea {
+    min-height: 140px;
+}
+
+.form-container {
+    max-width: 435px;
+    margin: auto;
+}
+
+.submit-button {
+    width: 179px;
+    height: 36px;
+    display: inline-block;
+    padding: 7px 8px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    border: none;
+    border-bottom: 1px solid #BF7506;
+    color: #211B12;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+.button-group {
+    display: flex;
+    justify-content: flex-end;
 }
